@@ -65,6 +65,13 @@ class ViewController: UIViewController, UITableViewDataSource{
         
         presentViewController(alert, animated: true, completion: nil) // allows for annimation of add and cancel button
     }
+    
+    //Delete function
+    
+    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        items.removeAtIndex(indexPath.row)
+        tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic) //deletes the row you are currently on 
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
