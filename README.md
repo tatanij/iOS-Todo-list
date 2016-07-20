@@ -1,4 +1,5 @@
 # iOS-Todo-list
+Author: Jasmeen Tatani
 test application submission. 
 
 INSTRUCTIONS
