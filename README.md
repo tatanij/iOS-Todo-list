@@ -21,3 +21,4 @@ NOTES:
 
 Unable to get Realm.io to work. It keeps forcing a blank screen on the device loader
 
+Unable to create edit function 
